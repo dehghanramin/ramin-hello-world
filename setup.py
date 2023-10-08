@@ -3,7 +3,7 @@ import sys,os
 
 setup(
     name = 'ramin-hello-world',
-    version = '0.1.0',
+    version = '0.2.0',
     description = 'Python test app',
     license='GPL v3',
     author = 'Ramin Dehghan',
@@ -13,7 +13,7 @@ setup(
     install_requires=['future'],
     entry_points = {
         'console_scripts': [
-            'helloworld=src.helloworld:main']
+            'ramin-hello-world=src.helloworld:main']
             },
     classifiers = ['Operating System :: OS Independent',
             'Programming Language :: Python :: 2.7',

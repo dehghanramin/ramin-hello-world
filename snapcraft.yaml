@@ -2,7 +2,7 @@ name: ramin-hello-world
 summary: a sample hello world echo program
 description: |
       trying to learn snap. This will echo hello world.
-version: '0.1.0'
+version: '0.2.0'
 base: core22
 confinement: strict
 
@@ -13,5 +13,5 @@ parts:
 
 apps:
   ramin-hello-world:
-    command: bin/helloworld
+    command: bin/ramin-hello-world
     plugs: [home]
