@@ -2,7 +2,7 @@ from setuptools import setup
 import sys,os
 
 setup(
-    name = 'helloworld',
+    name = 'ramin-hello-world',
     version = '0.1.0',
     description = 'Python test app',
     license='GPL v3',
