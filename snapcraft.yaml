@@ -1,0 +1,17 @@
+name: helloworld
+summary: a sample hello world echo program
+description: |
+      trying to learn snap. This will echo hello world.
+version: '0.1.0'
+base: core22
+confinement: strict
+
+parts:
+  helloworld:
+    plugin: python
+    source: .
+
+apps:
+  helloworld:
+    command: bin/helloworld
+    plugs: [home]
